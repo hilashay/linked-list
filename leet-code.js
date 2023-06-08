@@ -26,6 +26,6 @@ var removeElements = function (head, val) {
   return head;
 };
 
-l3 = LinkedList.fromArray([1]);
+l3 = LinkedList.fromArray([1, 1, 1, 2, 3, 1]);
 x = removeElements(l3.head, 1);
 console.log("x ", x?.toString1());
